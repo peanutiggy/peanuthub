@@ -1,0 +1,192 @@
+/********** 总容器 **********/
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+/********** header **********/
+.wrapper header{
+	width: 100%;
+	height: 12vw;
+	background-color: #0097FF;
+	color: #fff;
+	font-size: 4.8vw;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper .myinfo{
+	width: 100%;
+	height: 60vw;
+	margin-top: -18vw;
+	background-color: #f0f0f0;
+	border-radius: 30px;
+}
+/***********头像**********/
+.wrapper .myinfo .headphoto{
+	width: 100%;
+	height: 40vw;
+	margin-top: 30vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .myinfo .headphoto li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #999;
+}
+.wrapper .myinfo .headphoto li p{
+	font-size: 5vw;
+	user-select: none;
+}
+.wrapper .myinfo .headphoto li i{
+	font-size: 25vw;
+	user-select: none;
+	cursor: pointer;
+}
+/**** 用户名****/
+.wrapper .myinfo .username{
+	width: 100%;
+	height: 40vw;
+}
+.wrapper .myinfo .username h3{
+	margin-top: -4vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8vw;
+}
+.wrapper .myinfo .username p{
+	margin-top: 3vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 4vw;
+}
+
+.wrapper .VIP{
+	width: 100%;
+	height: 30vw;
+	background-color: #FEEDC1;
+	margin-top: 1vw;
+	border-radius: 2px;
+	color: #644F18;
+	border-radius: 20px;
+}
+.wrapper .VIP .left{
+	margin-left: 4vw;
+	user-select: none;
+	display: flex;
+	align-items: center;
+}
+.wrapper .VIP .left img{
+	width: 8vw;
+	height: 8vw;
+	margin-right: 2vw;
+}
+.wrapper .VIP .left h3{
+	margin-top: 2vw;
+	display: flex;
+	align-items: center;
+	font-size: 6vw;	
+}
+.wrapper .VIP p{
+	margin-top: 2vw;
+	font-size: 4vw;
+	margin-left: 4vw;
+}
+.wrapper .VIP .right{
+	margin-top: 2vw;
+	font-size: 4vw;
+	margin-left: 4vw;
+	user-select: none;
+	cursor: pointer;
+}
+
+.wrapper .wallet{
+	margin-top: 1vw;
+	width: 100%;
+	height: 35vw;
+	background-color: #5555ff;
+	color: #fff;
+	border-radius: 20px;
+}
+.wrapper .wallet .money{
+	margin-left: 4vw;
+    font-size: 6vw;
+	display: flex;
+	align-items: center;
+}
+.wrapper .wallet .money h4{
+	margin-top: 4vw;
+	font-size: 6vw;	
+}
+.wrapper .wallet .money p{
+	margin-top: 4vw;
+}
+.wrapper .wallet .go{
+	margin-top: 10vw;
+	font-size: 5vw;
+	margin-left: 4vw;
+	user-select: none;
+	cursor: pointer;
+}
+
+.wrapper .card{
+	margin-top: 1vw;
+	width: 100%;
+	height: 35vw;
+	background-color: #ff3e3e;
+	color: #fff;
+	border-radius: 20px;
+	margin-bottom: 12vw;
+}
+.wrapper .card h4{
+	margin-top: 1vw;
+	margin-left: 4vw;
+    font-size: 6vw;
+	display: flex;
+	align-items: center;
+}
+.wrapper .card p{
+	margin-top: 4vw;
+	margin-left: 4vw;
+	font-size: 4vw;
+	display: flex;
+	align-items: center;
+}
+/**********底部菜单************/
+.wrapper .footer{
+	width: 100%;
+	height: 14vw;
+	border-top: solid 1px #DDD;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .footer li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #999;
+	user-select: none;
+	cursor: pointer;
+}
+.wrapper .fooder li p{
+	font-size: 2.8vw;
+}
+.wrapper .fooder li i{
+	font-size: 5vw;
+}
